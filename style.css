@@ -1,0 +1,29 @@
+@font-face{
+    font-family: Outfit;
+    src:url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 400;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.outer{
+    width:500px;
+    height:700px;
+    background-color: hsl(147, 93%, 82%);
+    position: relative;
+    border: 2px solid black;
+}
+
+.inner{
+    width: 200px;
+    height: 200px;
+    background-color: hsla(0, 0%, 100%);
+    border: 2px solid black;
+    padding: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}   
