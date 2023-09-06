@@ -5,25 +5,29 @@
 }
 
 body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.center{
     background-color: hsl(0, 0%, 100%);
-}
-
-.outer{
-    width:500px;
-    height:700px;
-    background-color: hsl(147, 93%, 82%);
-    position: relative;
-    border: 2px solid black;
-}
-
-.inner{
-    width: 200px;
-    height: 200px;
-    background-color: hsla(0, 0%, 100%);
-    border: 2px solid black;
-    padding: 30px;
+    width: 20%;
+    height: 400px;
+    margin: auto;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-}   
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}  
+
+.center,img{
+    border: 2px solid black;
+}
+
+p{
+    font-family:sans-serif;
+    font-weight:400px;
+}
